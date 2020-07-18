@@ -1,0 +1,16 @@
+Swapping integers
+An array will be given
+We have to sort the array while sorting we have to swap two numbers at the same time we have to store the absolute difference between the numbers 
+At the end of sorting we will have to return the maximum difference
+Example
+5 arr size
+1 6 2 3 4
+Output 
+4
+Explanation
+While swapping 6 and 2 we get 4
+Then between 6 and 3 we get 3
+Then between 6 and 4 we get 2
+Max(4,3,2)=4
+
+

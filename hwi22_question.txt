@@ -1,0 +1,32 @@
+
+Number of moves in chessboard
+. represent empty cell
+R- can move vertically or horizontally
+B-can move diagonally
+Q-both R and B
+Example
+3 rows
+3 columns
+.R.
+...
+BQ.
+ 
+Output
+9
+
+Explanation 
+R can move to 0,0
+0,2
+1,1
+But not to 2,1 because it is already occupied by Q
+B can move to 1,1
+0,2
+Q can move to 1,0
+1,1
+1,2
+2,2
+
+Therefore
+R-3moves
+B-2moves
+Q-4moves
